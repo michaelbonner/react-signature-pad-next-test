@@ -1,5 +1,5 @@
 import Head from "next/head";
-import ReactSignatureCanvas from "react-signature-canvas";
+import SignatureCanvas from "react-signature-canvas";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
         }}
       >
         <h1>React Signature Pad Test</h1>
-        <ReactSignatureCanvas
+        <SignatureCanvas
           penColor={"#1e293b"}
           backgroundColor={"#f7fafc"}
           canvasProps={{ width: 400, height: 200, className: "border" }}
