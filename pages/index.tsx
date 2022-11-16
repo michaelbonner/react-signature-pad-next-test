@@ -9,7 +9,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main
+        style={{
+          margin: "auto",
+          maxWidth: "600px",
+          padding: "20px",
+        }}
+      >
+        <h1>React Signature Pad Test</h1>
         <ReactSignatureCanvas
           penColor={"#1e293b"}
           backgroundColor={"#f7fafc"}
@@ -17,6 +24,10 @@ export default function Home() {
           minWidth={1}
           maxWidth={4}
         />
+        <p>
+          Use the pad above to draw a signature. See the weird artifacts that
+          show up.
+        </p>
       </main>
     </div>
   );
