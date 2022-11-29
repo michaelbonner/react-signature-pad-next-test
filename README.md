@@ -1,3 +1,9 @@
+#Update: 2022-11-29
+
+Looks like the latest version of Next.js (13.0.5) fixed this issue.
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
