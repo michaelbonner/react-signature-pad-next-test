@@ -1,4 +1,4 @@
-#Update: 2022-11-29
+# Update: 2022-11-29
 
 Looks like the latest version of Next.js (13.0.5) fixed this issue.
 
